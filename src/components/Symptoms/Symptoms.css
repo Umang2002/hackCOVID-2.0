@@ -23,7 +23,8 @@
 }
 
 .symptoms .column .main-image img{
-    width : 43vh;
+    width : 45vh;
+
 }
 
 .symptoms .column .box-container{
@@ -31,6 +32,7 @@
    align-items: center;
    justify-content: center;
    flex-wrap: wrap;
+
 
 }
 
@@ -41,6 +43,7 @@
     justify-content: center;
     text-align: center;
     margin-left:3rem;
+
 }
 .symptoms .column .box-container .box img{
     width : 13rem;

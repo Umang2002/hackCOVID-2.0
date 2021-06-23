@@ -1,0 +1,56 @@
+:root {
+    --blue: #3c6382;
+    --dark-blue: #0a3d62;
+}
+
+.hand-wash .column{
+    display :flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.hand-wash .column .main-image img{
+    width : 25vw;
+
+}
+
+.hand-wash .column  .box-container{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:4;
+}
+.hand-wash .heading{
+    color:var(--blue);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hand-wash .column  .box-container .box{
+    text-align: center;
+    margin: 1.5rem;
+   flex:3;
+ 
+}
+
+.hand-wash .column  .box-container .box img{
+    width : 13rem;
+    height : 13rem;
+    padding :.5rem;
+}
+
+.hand-wash .column  .box-container .box h3{
+    font-size: 1.5rem;
+    color :var(--blue);
+
+}
+
+
+@media screen and (max-width :1360px){
+    .hand-wash .column .main-image img{
+        display :  none;
+    }
+}
+
