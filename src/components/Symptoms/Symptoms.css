@@ -1,0 +1,65 @@
+
+:root {
+    --blue: #3c6382;
+    --dark-blue: #0a3d62;
+}
+.symptoms{
+    
+        background:url('../../images/background-img.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+    
+
+}
+
+
+.symptoms .column {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.symptoms .column .main-image img{
+    width : 43vh;
+}
+
+.symptoms .column .box-container{
+   display :flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.symptoms .column .box-container .box{
+    padding :.5rem;
+    margin:.5rem;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left:3rem;
+}
+.symptoms .column .box-container .box img{
+    width : 13rem;
+    padding:1rem;
+}
+
+.symptoms .column .box-container .box h3{
+    font-size: 2rem;
+    color :var(--blue)
+}
+
+@media screen and (max-width :1270px){
+    .symptoms .column .main-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width :768px){
+    .symptoms .column .box-container .box img {
+        width: 10rem;
+    }
+}

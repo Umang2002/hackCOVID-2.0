@@ -1,0 +1,70 @@
+:root {
+    --blue: #3c6382;
+    --dark-blue: #0a3d62;
+}
+
+.tracker{
+        background:url('../../images//background-img.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+.tracker .heading{
+    padding-bottom: 2rem;
+}
+
+.tracker .box-container .box{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tracker .box-container .box img{
+    width : 80rem;
+    height : 50rem;
+    border : .1rem solid rgba(0,0,0,.5);
+    box-shadow: 0 .5rem 1rem  rgba(0,0,0,.3);
+    border-radius: .5rem;
+}
+
+.tracker .box-container .box .btn{
+    border:.1rem solid rgba(0,0,0,.1);
+    padding :.5rem 2rem;
+    box-shadow: 0 .5rem 1rem  rgba(0,0,0,.3);
+    background: var(--blue);
+    color : white;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.tracker .box-container .box .btn:hover{
+    background: var(--dark-blue);
+    color : white;
+}
+
+.tracker .box-container .box p{
+    font-size: 1.5rem;
+    color:var(--dark-blue);
+    margin-top: 1rem;
+}
+
+@media screen and (max-width :1300px){
+    .tracker .box-container .box img{
+        width : 60rem;
+        height : 35rem;
+    }
+}
+@media screen and (max-width :900px){
+    .tracker .box-container .box img{
+        width : 50rem;
+        height : 30rem;
+    }
+}
+@media screen and (max-width :450px){
+    .tracker .box-container .box img{
+        width : 40rem;
+        height : 25rem;
+    }
+}
