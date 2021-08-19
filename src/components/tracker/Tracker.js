@@ -12,7 +12,7 @@ const Tracker = () => {
             <div className="box-container">
                 <div className="box">
                    <img src ={project} alt ="" />
-                   <Link to ='/home' className="btn">Live Demo </Link>
+                   <Link to ='/' className="btn">Live Demo </Link>
                    <p>Watch live status of corona virus cases!!</p>
                 </div>
             </div>

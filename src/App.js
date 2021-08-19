@@ -8,17 +8,15 @@ import Symptoms from './components/Symptoms/Symptoms';
 import Precautions from './components/Precautions/Precautions';
 import Tracker from './components/tracker/Tracker';
 import Handwash from './components/Handwash/Handwash';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+
+
 
 function App() {
   return (
     <div className="App">
-        <Navbar />
-        {/* <Home />
-        <Prevent />
-        <Symptoms />  */}
-       
-            
+        
+            <Navbar />
             <Route path='/' exact  component={Home}/>
             <Route path='/' exact component={Prevent}/>
             <Route path='/' exact component={Symptoms} />
@@ -31,7 +29,7 @@ function App() {
             <Route path ='/precautions'  component={Precautions} />
             <Route path ='/tracker'  component={Tracker} />
             <Route path ='/hand-wash'  component={Handwash} />
-
+             {/* <Map /> */}
  
 
 
